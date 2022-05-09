@@ -6,8 +6,8 @@ services:
       restart: always
       command: npm start
       volumes:
-        - /c/Users/Administrator/AppData/Local/Jenkins/.jenkins/workspace/survey-form-v2_feature-abc/src:/var/www/app/src
-        - /c/Users/Administrator/AppData/Local/Jenkins/.jenkins/workspace/survey-form-v2_feature-abc/package.json:/var/www/app/package.json
+        - ./src:/var/www/app/src
+        - ./package.json:/var/www/app/package.json
       ports:
         - 3000:3000
         - 9229:9229
