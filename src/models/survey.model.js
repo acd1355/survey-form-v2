@@ -56,6 +56,7 @@ class SurveyModel extends Model {
 	}
 
 	// add the other necessary methods
+	// random comment to test jenkins
 }
 
 module.exports = SurveyModel;
